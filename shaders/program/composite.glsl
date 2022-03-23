@@ -218,18 +218,6 @@ bool RaytraceVoxel(vec3 origin, ivec3 originIndex, vec3 direction, bool transmit
 	}
 /***********************************************************************/
 
-///////////NOT MY CODE
-
-
-
-
-
-
-
-
-
-
-
 
 
 float intersect(vec3 p, vec3 d, vec4 sphere){
