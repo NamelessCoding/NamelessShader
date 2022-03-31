@@ -710,12 +710,7 @@ void main() {
   col = pow(col, vec3(1. / 2.2));
 
   finalScene = col;
-  // NOT MY CODE/////
-  // float cutoff = 0.025;/
-  // col += (cutoff * 2. - col) * clamp(cutoff * 2. - col, 0., 1.) * (0.25 /
-  // cutoff) - cutoff; col = col*(0.5+6.2*col)/(0.06+col*(1.7+6.2*col));
-  ///////////////////////////////
-
+  
   // gl_FragColor = texture2D(colortex8, TexCoords);
   //  gl_FragColor = vec4(col, 1.);
 }
